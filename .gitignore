@@ -1,0 +1,39 @@
+# ─── Python ───────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+
+# ─── Virtual Environment ──────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ─── PyTest / Coverage ────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# ─── IDE ──────────────────────────────────────────────────
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# ─── Playwright ───────────────────────────────────────────
+test-results/
+playwright-report/
+
+# ─── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ─── Keep reports/ tracked ────────────────────────────────
+!reports/
+!reports/report.html
+!reports/screenshots/
+
